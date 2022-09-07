@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import me from '../../assets/me1.png'
+import me from '../../assets/me3.png'
 import HeaderSocial from './HeaderSocials'
 
 const Header = () => {
