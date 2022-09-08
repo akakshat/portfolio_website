@@ -2,7 +2,7 @@ header
 {
     height: 100vh;
     padding-top: 7rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
     
 .header__container 
@@ -37,7 +37,7 @@ header
 
 .header__socials::after 
 {
-    content:"";
+    content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
@@ -52,6 +52,8 @@ header
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
+    /* left: 50%;
+    transform: translateX(-50%); */
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;

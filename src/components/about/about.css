@@ -18,6 +18,7 @@
     display: grid;
     place-items: center;
 }
+
 .about__me-image 
 {
     border-radius: 2rem;
@@ -63,13 +64,18 @@
 .about__card h5
 {
     font-size: 0.95rem;
+    /* padding: 3.3rem; */
 }
 
-/* .about__card small
+.about__tagline
+{
+    padding: 2rem;
+}
+.about__card small
 {
     font-size: 0.7rem;
     color: var(--color-light);
-} */
+}
     
 .about__content p 
 {
@@ -101,11 +107,11 @@
 
 /*  MEDIA QUERIES FOR SMALL DEVICES */
 
-@media screen and (max-width: 1024px) 
+@media screen and (max-width: 600px) 
 {
-    .about__container 
+    .about__cards
     {
-        grid-template-columns: 1fr  1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
     
