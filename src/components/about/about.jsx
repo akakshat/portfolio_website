@@ -19,20 +19,26 @@ const about = () => {
   <div className="about__content" >
     <div className="about__cards">
 
-      <article className="about__card">
-        <FaAward className="about__icon"/>
-        <h5>Work Experience</h5>
-      </article>
+      <a href = "#experience"> 
+        <article className="about__card">
+          <FaAward className="about__icon"/> 
+            <h5>Work Experience</h5>
+        </article> 
+      </a>
 
-      <article className="about__card">
-        <MdOutlineWork className="about__icon"/>
-        <h5>Volunteer Experience</h5>
-      </article>
+      <a href = "#experience"> 
+        <article className="about__card">
+          <MdOutlineWork className="about__icon"/>
+            <h5>Volunteer Experience</h5>
+        </article> 
+      </a>
 
-      <article className="about__card">
-        <VscFolderLibrary className="about__icon"/>
-        <h5>Projects</h5>
-      </article>
+      <a href = "#projects"> 
+        <article className="about__card"> 
+          <VscFolderLibrary className="about__icon"/> 
+            <h5>My <br /> Projects</h5>
+        </article> 
+      </a>
     </div>
     
       <p>
