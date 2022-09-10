@@ -22,21 +22,21 @@ const about = () => {
       <a href = "#experience"> 
         <article className="about__card">
           <FaAward className="about__icon"/> 
-            <h5>Work Experience</h5>
+            <h5>Work <br/> Experience</h5>
         </article> 
       </a>
 
       <a href = "#experience"> 
         <article className="about__card">
           <MdOutlineWork className="about__icon"/>
-            <h5>Volunteer Experience</h5>
+            <h5>Volunteer <br/> Experience</h5>
         </article> 
       </a>
 
       <a href = "#projects"> 
         <article className="about__card"> 
           <VscFolderLibrary className="about__icon"/> 
-            <h5>My <br /> Projects</h5>
+            <h5>My <br/> Projects</h5>
         </article> 
       </a>
     </div>

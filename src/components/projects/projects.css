@@ -1,17 +1,22 @@
 .projects__container
 {
     display: grid;
+    place-content: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
+    gap: 3rem;
+    max-width: 100px;
+    /* height: fit-content; */
+
 }
 
-.projects__item
+.projects__item 
 {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1.2rem;
     /* border-radius: 2rem; */
     /* border: 1px solid transparent; */
     transition: var(--transition);
+    height: fit-content;
 }
 .projects__item:hover
 {
@@ -22,22 +27,23 @@
 {
     /* border-radius: 1.5rem; */
     overflow: hidden;
+
 }
 .projects__item h3
 {
-    margin: 1.2rem 0 2rem;
+    margin: 0.1rem 0 ;
     text-align: center;
 }
 .projects__item-cta
 {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .btn1
 {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .projects__button
@@ -45,6 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 68px;
 }
 
 
@@ -54,11 +61,11 @@
 {
     .projects__container
     {
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: 1fr;
         gap: 1.2rem;
     }
 }
-
 
 /*  MEDIA QUERIES ( MEDIUM DEVICES = Tablets )  */
 
@@ -66,7 +73,12 @@
 {
     .projects__container
     {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
         gap: 1rem;
+        /* height: auto; */
+    }
+    .projects
+    {
+        height: auto;
     }
 }
