@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import Me from '../../assets/me-about.png'
-import {FaAward} from 'react-icons/fa'
-import {MdOutlineWork} from 'react-icons/md'
+import {BsBriefcaseFill} from 'react-icons/bs'
+import {SiHandshake} from 'react-icons/si'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const about = () => {
@@ -21,14 +21,14 @@ const about = () => {
 
       <a href = "#experience"> 
         <article className="about__card">
-          <FaAward className="about__icon"/> 
+          <BsBriefcaseFill className="about__icon"/> 
             <h5>Work <br/> Experience</h5>
         </article> 
       </a>
 
       <a href = "#experience"> 
         <article className="about__card">
-          <MdOutlineWork className="about__icon"/>
+          <SiHandshake className="about__icon"/>
             <h5>Volunteer <br/> Experience</h5>
         </article> 
       </a>
@@ -42,7 +42,7 @@ const about = () => {
     </div>
     
       <p>
-      I am a full stack software developer with more than 5000 hours of building, maintaining and deploying single page/eCommerce applications and I can adapt onto any technology rapidly making myself flexible upon any tech stack. A passionate, diligent person who wants to learn continuously.
+      I am a full stack developer with more than 5000 hours of building, maintaining and deploying multi page and eCommerce websites and I can adapt onto any technology rapidly making myself flexible upon any tech stack. A passionate, diligent person who wants to learn continuously.
       </p>
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     

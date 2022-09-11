@@ -8,14 +8,15 @@
     outline: 0;
     box-sizing: border-box;
     list-style: none;
-    text-decoration: none;    
+    text-decoration: none;  
+    scroll-behavior: smooth;  
 }
 
 :root
 {
     --color-bg: #0A0A0A;
-    --color-bg-variant: #2d2d7c;
-    --color-primary: #7be4f0;
+    --color-bg-variant: #064663;
+    --color-primary: #93edf6;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white:  #fff;
     --color-light: rgba(255, 255, 255, 0.6);
